@@ -1,0 +1,63 @@
+.modal-window {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease 0s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal-window.open{
+    opacity: 1;
+    visibility: visible;
+}
+  
+.modal-window.open .modal-content{
+opacity: 1;
+}
+
+.modal-body{
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.modal-content{
+    width: 1440px;
+    height: 845px;
+
+    background: #FFF;
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+    border-radius: 4px;
+}
+
+.modal-close-btn {
+    width: 25px;
+    height: 25px;
+    margin-top: 30px;
+    border: none;
+    position: absolute;
+    background: url(/museum/dist/assets/img/modal-window/Close.png) no-repeat center;
+    margin-left: 1385px;
+}
+
+.modal-close-btn:hover {
+    background-color: rgba(255,0,0,0.2);
+    border-radius: 50px;
+}
+
+.modal-close-btn:active {
+    outline:none !important;
+}
+
+.modal-close-btn:focus {
+    outline:none !important;
+}

@@ -1,0 +1,81 @@
+.contacts-section {
+    width: 1440px;
+    margin-top: 75px;
+}
+
+.contacts-header {
+    margin-top: 75px;
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 90px;
+    /* identical to box height, or 112% */
+
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+    color: #9D8665;
+}
+
+.contacts-line {
+    width: 1440px;
+    height: 3px;
+    left: 0px;
+    margin-top: 25px;
+
+    background: #710707;
+    border-radius: 0px;
+}
+
+.contacts-body {
+    margin-top: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contacts-body img {
+    margin-right: 0;
+}
+
+.contacts-description p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+    max-width: 230px;
+    margin-left: 0;
+
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+.contacts-description ul li {
+    margin-bottom: 25px;
+}
+
+.contacts-description p1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.contacts-description p2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
