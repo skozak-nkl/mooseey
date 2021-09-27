@@ -46,7 +46,7 @@ function images() {
     'src/assets/img/**/*.+(png|jpg|gif|svg)',
     'src/assets/video/*.jpg'
   ];
-  return src(filesToMove, { base: './src/assets/' })
+  return src(filesToMove, { base: 'src/assets/' })
     .pipe(imagemin())
     .pipe(dest("dist/assets"));
 }
@@ -56,7 +56,7 @@ function move() {
     'src/assets/favicon.ico',
     'src/assets/video/*.mp4'
   ];
-  return src(filesToMove, { base: '.src/assets/' })
+  return src(filesToMove, { base: 'src/assets/' })
     .pipe(dest("dist/assets"));
 }
 
