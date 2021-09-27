@@ -272,7 +272,7 @@ button:focus {
 
 .slider-prev {
     cursor: pointer;
-    background: url('src/assets/img/video/control-prev.png') no-repeat;
+    background: url('./dist/assets/img/video/control-prev.png') no-repeat;
 }
 
 .slider-prev:active {
@@ -285,7 +285,7 @@ button:focus {
 
 .slider-next {
     cursor: pointer;
-    background: url('src/assets/img/video/control-next.png') no-repeat;
+    background: url('./dist/assets/img/video/control-next.png') no-repeat;
 }
 
 .slider-next:active {
@@ -297,10 +297,10 @@ button:focus {
 }
 
 .slider-dot {
-    background: url('src/assets/img/video/control-dot-inactive.png') no-repeat;
+    background: url('./dist/assets/img/video/control-dot-inactive.png') no-repeat;
 }
 
 .slider-dot-active {
-    background: url('src/assets/img/video/control-dot-active.png') no-repeat;
+    background: url('./dist/assets/img/video/control-dot-active.png') no-repeat;
     outline:none !important;
 }
