@@ -3,7 +3,7 @@ let sliderPrev = document.getElementById('slider-prev');
 let sliderNext = document.getElementById('slider-next');
 let sliderDots = slider.querySelectorAll('.slider-dot');
 
-const videoFolderPrefix = '/museum/dist/assets/video';
+const videoFolderPrefix = '/dist/assets/video';
 const videoURLs = [
     `${videoFolderPrefix}/video0.mp4`,
     `${videoFolderPrefix}/video1.mp4`,
