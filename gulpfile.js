@@ -46,7 +46,7 @@ function images() {
     'src/assets/img/**/*.+(png|jpg|gif|svg)',
     'src/assets/video/*.jpg'
   ];
-  return src(filesToMove, { base: './museumsrc/assets/' })
+  return src(filesToMove, { base: './src/assets/' })
     .pipe(imagemin())
     .pipe(dest("dist/assets"));
 }
