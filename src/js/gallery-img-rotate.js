@@ -19,7 +19,7 @@ function shuffle(array) {
 }
 
 function rotateGalleryImages(count) {
-    const galleryImgPrefix = "../assets/img/galery/galery"
+    const galleryImgPrefix = "/dist/assets/img/galery/galery"
     const galleryImgPostfix = ".jpg"
 
     let indexArr = [];
