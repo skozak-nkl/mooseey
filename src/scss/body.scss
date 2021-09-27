@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    flex-direction: column;
+    width: 1920px;
+    align-items: center;
+    align-content: center;
+    background-color: #fff;
+}
+
+html {
+    scroll-behavior: smooth;
+    margin: auto;
+}

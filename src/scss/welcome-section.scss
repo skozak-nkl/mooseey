@@ -1,0 +1,200 @@
+.welcome-section {
+    height: 810px;
+    width: 1440px;
+    background-color: #030303;
+    left: 0;
+    top: 0;
+}
+
+.welcome-section bg {
+    position: absolute;
+    width: 1920px;
+    height: 842px;
+    left: -240px;
+    top: -32px;
+
+    background: #030303;
+}
+
+.welcome-left-frame {
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    width: 598px;
+    height: 388px;
+    top: 150px;
+}
+
+.welcome-left-frame h2 {
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 90px;
+    /* or 112% */
+
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.welcome-left-frame p1 {
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 90px;
+    /* or 112% */
+
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.welcome-left-frame p2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 33px;
+    /* identical to box height */
+
+    letter-spacing: 2px;
+
+    color: #FFFFFF;
+}
+
+.welcome-left-frame button {
+    width: 360px;
+    height: 75px;
+    left: 0px;
+    top: 0px;
+    border: none;
+    cursor: pointer;
+    background: #710707;
+    border-radius: 10px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 2px;
+
+    color: #FFFFFF;
+    margin-top: 75px;
+}
+
+.welcome-left-frame button:hover {
+    background: #9d8665;
+    color: #FFFFFF;
+}
+
+.welcome-right-frame {
+    position: absolute;
+    width: 1000px;
+    height: 810px;
+    left: 440px;
+    top: 0px;
+    background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0.5) 16.19%, rgba(0, 0, 0, 0) 30.73%), url("/museum/dist/assets/img/welcome-slider/1.jpg") no-repeat;
+}
+
+.welcome-carousel {
+    background: black;
+    position: absolute;
+    width: 600px;
+    height: 120px;
+    left: 400px;
+    top: 690px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.welcome-carousel-indexes {
+    margin: auto;
+    align-items: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 40px;
+    /* identical to box height, or 182% */
+
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.welcome-carousel-indexes p2 {
+    margin: 0 10px;
+}
+
+.welcome-carousel-squares {
+    margin: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.welcome-carousel-squares div {
+    width: 16px;
+    height: 16px;
+    margin-right: 25px;
+}
+
+.welcome-square {
+    background: #FFFFFF;
+}
+
+.welcome-active-square {
+    background: #D2B183;
+
+}
+
+.welcome-carousel-arrows {
+    margin: auto;
+    align-items: center;
+}
+
+.welcome-carousel-arrows button {
+    border: none;
+}
+
+.welcome-carousel-arrows button:active {
+    outline:none !important;
+}
+
+.welcome-carousel-arrows button:focus {
+    outline:none !important;
+}
+
+.welcome-carousel-prev {
+    background: url('/museum/dist/assets/img/welcome-slider/prev.png') no-repeat center;
+    width: 30px;
+    height: 8px;
+    margin-right: 20px;
+}
+
+.welcome-carousel-prev:hover {
+    background: url('/museum/dist/assets/img/welcome-slider/prev-hover.png') no-repeat center;
+    cursor: pointer;
+}
+
+.welcome-carousel-next {
+    background: url('/museum/dist/assets/img/welcome-slider/next.png') no-repeat center;
+    width: 30px;
+    height: 8px;    
+}
+
+.welcome-carousel-next:hover {
+    background: url('/museum/dist/assets/img/welcome-slider/next-hover.png') no-repeat center;
+    cursor: pointer;
+}
