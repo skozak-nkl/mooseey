@@ -61,12 +61,12 @@
 }
 
 .video-play-button {
-    background: url("dist/assets/img/video/Play.png") no-repeat;
+    background: url("../dist/assets/img/video/Play.png") no-repeat;
     cursor: pointer;
 }
 
 .video-pause-button {
-    background: url("dist/assets/img/video/Pause.png") no-repeat;
+    background: url("../dist/assets/img/video/Pause.png") no-repeat;
     cursor: pointer;
 }
 
@@ -186,7 +186,7 @@
 }
 
 .youtube-play {
-    background: url("dist/assets/img/video/youtube-icon-inactive.png") no-repeat;
+    background: url("../dist/assets/img/video/youtube-icon-inactive.png") no-repeat;
     position: absolute;
     margin-left: 188px;
     margin-top: 103px;
@@ -197,7 +197,7 @@
 }
 
 .youtube-play:hover {
-    background: url("dist/assets/img/video/youtube-icon-active.png") no-repeat;
+    background: url("../dist/assets/img/video/youtube-icon-active.png") no-repeat;
 }
 
 .youtube-play:active {
