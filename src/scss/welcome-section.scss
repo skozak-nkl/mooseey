@@ -102,7 +102,7 @@
     height: 810px;
     left: 440px;
     top: 0px;
-    background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0.5) 16.19%, rgba(0, 0, 0, 0) 30.73%), url("/mooseey/dist/assets/img/welcome-slider/1.jpg") no-repeat;
+    background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0.5) 16.19%, rgba(0, 0, 0, 0) 30.73%), url("dist/assets/img/welcome-slider/1.jpg") no-repeat;
 }
 
 .welcome-carousel {
@@ -177,24 +177,24 @@
 }
 
 .welcome-carousel-prev {
-    background: url('/mooseey/dist/assets/img/welcome-slider/prev.png') no-repeat center;
+    background: url('dist/assets/img/welcome-slider/prev.png') no-repeat center;
     width: 30px;
     height: 8px;
     margin-right: 20px;
 }
 
 .welcome-carousel-prev:hover {
-    background: url('/mooseey/dist/assets/img/welcome-slider/prev-hover.png') no-repeat center;
+    background: url('dist/assets/img/welcome-slider/prev-hover.png') no-repeat center;
     cursor: pointer;
 }
 
 .welcome-carousel-next {
-    background: url('/mooseey/dist/assets/img/welcome-slider/next.png') no-repeat center;
+    background: url('dist/assets/img/welcome-slider/next.png') no-repeat center;
     width: 30px;
     height: 8px;    
 }
 
 .welcome-carousel-next:hover {
-    background: url('/mooseey/dist/assets/img/welcome-slider/next-hover.png') no-repeat center;
+    background: url('dist/assets/img/welcome-slider/next-hover.png') no-repeat center;
     cursor: pointer;
 }

@@ -4,7 +4,7 @@ let welcomeImageBtnPrev = document.getElementById('welcome-carousel-prev');
 let welcomeIndexes = document.querySelectorAll('.welcome-carousel-indexes p1');
 
 const welcomeBGOpts = 'linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0.5) 16.19%, rgba(0, 0, 0, 0) 30.73%)'
-const welcomeImagePrefix = '/mooseey/dist/assets/img/welcome-slider';
+const welcomeImagePrefix = 'dist/assets/img/welcome-slider';
 const welcomeImageURLs = [
     `${welcomeImagePrefix}/1.jpg`,
     `${welcomeImagePrefix}/2.jpg`,
