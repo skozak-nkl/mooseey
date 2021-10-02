@@ -60,12 +60,12 @@
 }
 
 .video-play-button {
-    background: url("dist/assets/img/video/Play.png") no-repeat;
+    background: url("/dist/assets/img/video/Play.png") no-repeat;
     cursor: pointer;
 }
 
 .video-pause-button {
-    background: url("dist/assets/img/video/Pause.png") no-repeat;
+    background: url("/dist/assets/img/video/Pause.png") no-repeat;
     cursor: pointer;
 }
 
@@ -185,7 +185,7 @@
 }
 
 .youtube-play {
-    background: url("dist/assets/img/video/youtube-icon-inactive.png") no-repeat;
+    background: url("/dist/assets/img/video/youtube-icon-inactive.png") no-repeat;
     position: absolute;
     margin-left: 188px;
     margin-top: 103px;
@@ -196,7 +196,7 @@
 }
 
 .youtube-play:hover {
-    background: url("dist/assets/img/video/youtube-icon-active.png") no-repeat;
+    background: url("/dist/assets/img/video/youtube-icon-active.png") no-repeat;
 }
 
 .youtube-play:active {
@@ -271,7 +271,7 @@ button:focus {
 
 .slider-prev {
     cursor: pointer;
-    background: url('dist/assets/img/video/control-prev.png') no-repeat;
+    background: url('/dist/assets/img/video/control-prev.png') no-repeat;
 }
 
 .slider-prev:active {
@@ -284,7 +284,7 @@ button:focus {
 
 .slider-next {
     cursor: pointer;
-    background: url('dist/assets/img/video/control-next.png') no-repeat;
+    background: url('/dist/assets/img/video/control-next.png') no-repeat;
 }
 
 .slider-next:active {
@@ -296,10 +296,10 @@ button:focus {
 }
 
 .slider-dot {
-    background: url('dist/assets/img/video/control-dot-inactive.png') no-repeat;
+    background: url('/dist/assets/img/video/control-dot-inactive.png') no-repeat;
 }
 
 .slider-dot-active {
-    background: url('dist/assets/img/video/control-dot-active.png') no-repeat;
+    background: url('/dist/assets/img/video/control-dot-active.png') no-repeat;
     outline:none !important;
 }
